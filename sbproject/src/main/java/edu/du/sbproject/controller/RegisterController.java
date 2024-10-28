@@ -6,6 +6,7 @@ import edu.du.sbproject.vo.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -40,11 +41,13 @@ public class RegisterController {
     }
 
     @PostMapping("/step3")
-    public String handleStep3(RegisterRequest regReq) {
+    public String handleStep3(RegisterRequest regReq, Errors errors) {
+        new RegisterRequestValidator().validate(regReq, errors);
         try {
             memberRegisterService.regist(regReq);
             return "register/step3";
         } catch (DuplicateMemberException ex) {
+            errors.reject("notMatchingIdPassword");
             return "register/step2";
         }
     }
