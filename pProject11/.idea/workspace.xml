@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f151a3ab-e0a6-4197-a166-0d95100c3bf3" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/controller/BoardValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/dto/BoardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/entity/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/java/edu/du/sb1029/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/css/app.62cbffcb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/js/app.069e3d1e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/js/chunk-vendors.1a657902.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/templates/board/boardDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/templates/board/boardList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/templates/board/boardWrite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1029/src/main/resources/templates/layout/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/java/edu/du/sb1030/controller/MemberDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/java/edu/du/sb1030/controller/MemberListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/resources/templates/member/invalidId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/resources/templates/member/memberDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/resources/templates/member/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030-2/src/main/resources/templates/member/noMember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/config/LoggerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/ChangePwdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/ChangePwdCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/ChangePwdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/LoginCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/controller/RegisterRequestValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/ChangePasswordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/DuplicateMemberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/MemberNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/MemberRegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/java/edu/du/sb1030/spring/WrongIdPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/css/app.62cbffcb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/js/app.069e3d1e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/js/chunk-vendors.1a657902.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/edit/changePwdForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/edit/changedPwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/error/error_default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/layout/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/login/loginForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/login/loginSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/view/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/view/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1030/src/main/resources/templates/view/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/event/CustomEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/event/CustomEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/event/CustomEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/event/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/shipment/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/shipment/ShipmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/shipment/ShipmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/java/edu/du/sb1031/shipment/ShipmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/css/app.62cbffcb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/js/app.069e3d1e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/js/chunk-vendors.1a657902.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/templates/orders/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/templates/orders/orderForm333.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/templates/orders/orderList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/templates/shipment/shipmentForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1031/src/main/resources/templates/shipment/shipmentList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/dto/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/dto/TestRequestBodyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/dto/TodoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/model/TodoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/persistence/TodoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/java/edu/du/sb1114/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1114/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1115/src/main/java/edu/du/sb1115/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1115/src/main/java/edu/du/sb1115/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1115/src/main/resources/static/js/storeDataSendAjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1115/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/BaseTimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/posts/Posts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/posts/PostsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/domain/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/service/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/dto/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/dto/PostsListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/java/edu/du/sb1118_restful/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/resources/templates/posts-save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1118_Restful/src/main/resources/templates/posts-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/controller/DataPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/controller/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/DataPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/DataPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/MyDataMongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/MyDataMongoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/java/edu/du/sb1120_mongo/repository/TeamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/resources/templates/find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sb1120_mongo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sb1028/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sb1028/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/SbprojectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/SbprojectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/dto/BoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/dto/BoardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/dto/BoardFileDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/dto/BoardFileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/board/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/common/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/common/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/BeginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/BeginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/RegisterRequestValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/controller/RegisterRequestValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/entity/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/entity/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/vo/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/java/edu/du/sbproject/vo/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/mapper/sql-board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/mapper/sql-board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/board/boardList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/board/boardList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/register/step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/register/step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/register/step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/main/resources/templates/register/step3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbproject/src/test/java/edu/du/sbproject/SbprojectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sbproject/src/test/java/edu/du/sbproject/SbprojectApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pProject11" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oEmChaWf1yCSjoUvywnVQJ65cS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.PProject11ApplicationTests.chPass.executor": "Run",
+    "Gradle.PProject11ApplicationTests.saveAndVerifyImagePath.executor": "Run",
+    "Gradle.PProject11ApplicationTests.로그인테스트.executor": "Run",
+    "Gradle.PProject11ApplicationTests.로그인테스트2.executor": "Run",
+    "Gradle.PProject11ApplicationTests.상품만들기.executor": "Run",
+    "Gradle.PProject11ApplicationTests.상품만들기_사이즈추가.executor": "Run",
+    "Gradle.PProject11ApplicationTests.세일_상품만들기.executor": "Run",
+    "Gradle.PProject11ApplicationTests.세일품목_출력.executor": "Run",
+    "Gradle.PProject11ApplicationTests.신상_상품만들기.executor": "Run",
+    "Gradle.PProject11ApplicationTests.제품상세_출력.executor": "Run",
+    "Gradle.PProject11ApplicationTests.카테고리_에러잡자.executor": "Run",
+    "Gradle.PProject11ApplicationTests.카트추가.executor": "Run",
+    "Gradle.PProject11ApplicationTests.카트테스트.executor": "Run",
+    "Gradle.pProject11 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.PProject11Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/DU/IdeaProjects/pProject11/src/main/java/edu/du/pproject11",
+    "last_opened_file_path": "C:/pProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.du.pproject11.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\templates\member" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\assets" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\mapper" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\templates\main" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\assets" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\images" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\image" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\static\css" />
+      <recent name="C:\Users\DU\IdeaProjects\pProject11\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.PProject11ApplicationTests.상품만들기_사이즈추가">
+    <configuration name="PProject11ApplicationTests.카트추가" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.카트추가&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.로그인테스트2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.로그인테스트2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.상품만들기_사이즈추가" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.상품만들기_사이즈추가&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.카트테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.카트테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.로그인테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.로그인테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.제품상세_출력" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.제품상세_출력&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.상품만들기_사이즈추가" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.상품만들기_사이즈추가&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.카테고리_에러잡자" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.카테고리_에러잡자&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.세일품목_출력" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.세일품목_출력&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.신상_상품만들기" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.신상_상품만들기&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.상품만들기_사이즈추가" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.상품만들기_사이즈추가&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11ApplicationTests.chPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;edu.du.pproject11.PProject11ApplicationTests.chPass&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PProject11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="pProject11.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.du.pproject11.PProject11Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.du.pproject11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PProject11Application" />
+        <item itemvalue="Gradle.PProject11ApplicationTests.상품만들기_사이즈추가" />
+        <item itemvalue="Gradle.PProject11ApplicationTests.chPass" />
+        <item itemvalue="Gradle.PProject11ApplicationTests.로그인테스트2" />
+        <item itemvalue="Gradle.PProject11ApplicationTests.카트추가" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f151a3ab-e0a6-4197-a166-0d95100c3bf3" name="변경" comment="" />
+      <created>1730442985300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730442985300</updated>
+      <workItem from="1730442986280" duration="4275000" />
+      <workItem from="1730711189857" duration="1656000" />
+      <workItem from="1730789827472" duration="2805000" />
+      <workItem from="1730883453799" duration="5709000" />
+      <workItem from="1730955916726" duration="2176000" />
+      <workItem from="1730958101367" duration="611000" />
+      <workItem from="1730958721146" duration="16530000" />
+      <workItem from="1731042281150" duration="15749000" />
+      <workItem from="1731313208063" duration="7524000" />
+      <workItem from="1731386987034" duration="9839000" />
+      <workItem from="1731478191639" duration="1205000" />
+      <workItem from="1731483319807" duration="10875000" />
+      <workItem from="1731560668090" duration="1272000" />
+      <workItem from="1731566957328" duration="9681000" />
+      <workItem from="1731577101484" duration="35000" />
+      <workItem from="1731577154302" duration="2482000" />
+      <workItem from="1731648039313" duration="25000" />
+      <workItem from="1731650699736" duration="11052000" />
+      <workItem from="1731908620888" duration="10000" />
+      <workItem from="1731909267066" duration="12475000" />
+      <workItem from="1731998183902" duration="8811000" />
+      <workItem from="1732080197578" duration="97000" />
+      <workItem from="1732083917490" duration="9074000" />
+      <workItem from="1732094086105" duration="729000" />
+      <workItem from="1732094827049" duration="3728000" />
+      <workItem from="1732167418545" duration="11000" />
+      <workItem from="1732170708658" duration="9466000" />
+      <workItem from="1732251634562" duration="8529000" />
+      <workItem from="1732511974612" duration="19106000" />
+      <workItem from="1732597062356" duration="10904000" />
+      <workItem from="1732684027251" duration="2969000" />
+      <workItem from="1732689415851" duration="12638000" />
+      <workItem from="1732778956835" duration="3856000" />
+      <workItem from="1732782853166" duration="1852000" />
+      <workItem from="1732784713732" duration="2790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

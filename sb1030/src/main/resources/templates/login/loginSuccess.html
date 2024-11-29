@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title th:text="#{login.title}">로그인</title>
+</head>
+<body>
+<p>
+	<span th:text="#{login.done}">로그인 완료</span>
+</p>
+<p>
+	<a th:href="@{/main}">[<span th:text="#{go.main}">메인으로 이동</span>]</a>
+</p>
+</body>
+</html>
